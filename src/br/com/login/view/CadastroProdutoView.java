@@ -110,7 +110,7 @@ public class CadastroProdutoView extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonCriar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 390, 80, 50));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/Tela de Cadastro de Produto.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/Tela de Cadastro de Produto 2.png"))); // NOI18N
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, -1));
 

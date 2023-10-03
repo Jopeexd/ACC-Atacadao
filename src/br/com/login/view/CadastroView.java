@@ -29,6 +29,7 @@ public class CadastroView extends javax.swing.JFrame {
         jTextFieldNome = new javax.swing.JTextField();
         jTextFieldCPF = new javax.swing.JTextField();
         jTextFieldTelefone = new javax.swing.JTextField();
+        jTextFieldFuncao = new javax.swing.JTextField();
         jTextFieldSenha = new javax.swing.JPasswordField();
         jTextFieldEmail = new javax.swing.JTextField();
         jButtonCriar = new javax.swing.JButton();
@@ -44,7 +45,7 @@ public class CadastroView extends javax.swing.JFrame {
                 jTextFieldNomeActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 220, 140, 50));
+        getContentPane().add(jTextFieldNome, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 220, 140, 50));
 
         jTextFieldCPF.setBorder(null);
         jTextFieldCPF.addActionListener(new java.awt.event.ActionListener() {
@@ -52,7 +53,7 @@ public class CadastroView extends javax.swing.JFrame {
                 jTextFieldCPFActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldCPF, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 480, 140, 40));
+        getContentPane().add(jTextFieldCPF, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 340, 140, 40));
 
         jTextFieldTelefone.setBorder(null);
         jTextFieldTelefone.addActionListener(new java.awt.event.ActionListener() {
@@ -60,7 +61,10 @@ public class CadastroView extends javax.swing.JFrame {
                 jTextFieldTelefoneActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldTelefone, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 390, 140, 50));
+        getContentPane().add(jTextFieldTelefone, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 340, 140, 40));
+
+        jTextFieldFuncao.setBorder(null);
+        getContentPane().add(jTextFieldFuncao, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 450, 140, 40));
 
         jTextFieldSenha.setBorder(null);
         jTextFieldSenha.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +72,7 @@ public class CadastroView extends javax.swing.JFrame {
                 jTextFieldSenhaActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 560, 150, 50));
+        getContentPane().add(jTextFieldSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 450, 140, 40));
 
         jTextFieldEmail.setBorder(null);
         jTextFieldEmail.addActionListener(new java.awt.event.ActionListener() {
@@ -76,7 +80,7 @@ public class CadastroView extends javax.swing.JFrame {
                 jTextFieldEmailActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 310, 150, 40));
+        getContentPane().add(jTextFieldEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 220, 150, 50));
 
         jButtonCriar.setContentAreaFilled(false);
         jButtonCriar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -85,7 +89,7 @@ public class CadastroView extends javax.swing.JFrame {
                 jButtonCriarActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCriar, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 630, 150, 30));
+        getContentPane().add(jButtonCriar, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 550, 170, 50));
 
         jButtonEntrar.setContentAreaFilled(false);
         jButtonEntrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -94,9 +98,9 @@ public class CadastroView extends javax.swing.JFrame {
                 jButtonEntrarActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonEntrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 670, 50, 20));
+        getContentPane().add(jButtonEntrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 640, 50, 20));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/Tela de Cadastro 2.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/Tela de Cadastro 3.png"))); // NOI18N
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, -1));
 
@@ -176,6 +180,7 @@ public class CadastroView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JTextField jTextFieldCPF;
     private javax.swing.JTextField jTextFieldEmail;
+    private javax.swing.JTextField jTextFieldFuncao;
     private javax.swing.JTextField jTextFieldNome;
     private javax.swing.JPasswordField jTextFieldSenha;
     private javax.swing.JTextField jTextFieldTelefone;
